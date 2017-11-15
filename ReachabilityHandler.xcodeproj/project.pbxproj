@@ -16,6 +16,7 @@
 		C91EFDF71FBC3872001B35A5 /* ReachabilityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C91EFDF61FBC3872001B35A5 /* ReachabilityHandler.m */; };
 		C91EFDFA1FBC3886001B35A5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C91EFDF81FBC3885001B35A5 /* Reachability.m */; };
 		C91EFDFF1FBC4329001B35A5 /* KSToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91EFDFD1FBC4327001B35A5 /* KSToastView.m */; };
+		C91EFE031FBC4E2D001B35A5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C91EFE021FBC4E2D001B35A5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C91EFDFC1FBC4097001B35A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C91EFDFD1FBC4327001B35A5 /* KSToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSToastView.m; sourceTree = "<group>"; };
 		C91EFDFE1FBC4328001B35A5 /* KSToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSToastView.h; sourceTree = "<group>"; };
+		C91EFE021FBC4E2D001B35A5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		C91EFDDE1FBC3839001B35A5 /* ReachabilityHandler */ = {
 			isa = PBXGroup;
 			children = (
+				C91EFE021FBC4E2D001B35A5 /* README.md */,
 				C91EFDDF1FBC3839001B35A5 /* AppDelegate.h */,
 				C91EFDE01FBC3839001B35A5 /* AppDelegate.m */,
 				C91EFDE21FBC3839001B35A5 /* ViewController.h */,
@@ -172,6 +175,7 @@
 			files = (
 				C91EFDEC1FBC3839001B35A5 /* LaunchScreen.storyboard in Resources */,
 				C91EFDE91FBC3839001B35A5 /* Assets.xcassets in Resources */,
+				C91EFE031FBC4E2D001B35A5 /* README.md in Resources */,
 				C91EFDE71FBC3839001B35A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
