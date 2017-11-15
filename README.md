@@ -18,7 +18,8 @@ just drag ```ReachabilityHandler , Reachability and KSToastView``` Once you have
 
 #### Check network status
 
-```` - (void)viewDidLoad {
+````
+- (void)viewDidLoad {
 [super viewDidLoad];
 
 if (![ReachabilityHandler checkInternetConnection]) {
