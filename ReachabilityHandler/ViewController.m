@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ReachabilityHandler.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    if (![ReachabilityHandler checkInternetConnection]) {
+       
+        NSLog(@"Internet is available");
+    }else{
+        NSLog(@"Internet is unavailable");
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 

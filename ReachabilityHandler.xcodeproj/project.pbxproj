@@ -13,6 +13,9 @@
 		C91EFDE91FBC3839001B35A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91EFDE81FBC3839001B35A5 /* Assets.xcassets */; };
 		C91EFDEC1FBC3839001B35A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91EFDEA1FBC3839001B35A5 /* LaunchScreen.storyboard */; };
 		C91EFDEF1FBC3839001B35A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C91EFDEE1FBC3839001B35A5 /* main.m */; };
+		C91EFDF71FBC3872001B35A5 /* ReachabilityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C91EFDF61FBC3872001B35A5 /* ReachabilityHandler.m */; };
+		C91EFDFA1FBC3886001B35A5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C91EFDF81FBC3885001B35A5 /* Reachability.m */; };
+		C91EFDFF1FBC4329001B35A5 /* KSToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91EFDFD1FBC4327001B35A5 /* KSToastView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		C91EFDEB1FBC3839001B35A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C91EFDED1FBC3839001B35A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C91EFDEE1FBC3839001B35A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C91EFDF51FBC3872001B35A5 /* ReachabilityHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachabilityHandler.h; sourceTree = "<group>"; };
+		C91EFDF61FBC3872001B35A5 /* ReachabilityHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilityHandler.m; sourceTree = "<group>"; };
+		C91EFDF81FBC3885001B35A5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C91EFDF91FBC3886001B35A5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C91EFDFC1FBC4097001B35A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C91EFDFD1FBC4327001B35A5 /* KSToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSToastView.m; sourceTree = "<group>"; };
+		C91EFDFE1FBC4328001B35A5 /* KSToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSToastView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,7 @@
 			children = (
 				C91EFDDE1FBC3839001B35A5 /* ReachabilityHandler */,
 				C91EFDDD1FBC3839001B35A5 /* Products */,
+				C91EFDFB1FBC4096001B35A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +73,8 @@
 				C91EFDE01FBC3839001B35A5 /* AppDelegate.m */,
 				C91EFDE21FBC3839001B35A5 /* ViewController.h */,
 				C91EFDE31FBC3839001B35A5 /* ViewController.m */,
+				C91EFE001FBC491A001B35A5 /* Reachabilty */,
+				C91EFE011FBC492F001B35A5 /* Toast view */,
 				C91EFDE51FBC3839001B35A5 /* Main.storyboard */,
 				C91EFDE81FBC3839001B35A5 /* Assets.xcassets */,
 				C91EFDEA1FBC3839001B35A5 /* LaunchScreen.storyboard */,
@@ -69,6 +82,34 @@
 				C91EFDEE1FBC3839001B35A5 /* main.m */,
 			);
 			path = ReachabilityHandler;
+			sourceTree = "<group>";
+		};
+		C91EFDFB1FBC4096001B35A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91EFDFC1FBC4097001B35A5 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C91EFE001FBC491A001B35A5 /* Reachabilty */ = {
+			isa = PBXGroup;
+			children = (
+				C91EFDF51FBC3872001B35A5 /* ReachabilityHandler.h */,
+				C91EFDF61FBC3872001B35A5 /* ReachabilityHandler.m */,
+				C91EFDF91FBC3886001B35A5 /* Reachability.h */,
+				C91EFDF81FBC3885001B35A5 /* Reachability.m */,
+			);
+			path = Reachabilty;
+			sourceTree = "<group>";
+		};
+		C91EFE011FBC492F001B35A5 /* Toast view */ = {
+			isa = PBXGroup;
+			children = (
+				C91EFDFE1FBC4328001B35A5 /* KSToastView.h */,
+				C91EFDFD1FBC4327001B35A5 /* KSToastView.m */,
+			);
+			path = "Toast view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +186,9 @@
 				C91EFDE41FBC3839001B35A5 /* ViewController.m in Sources */,
 				C91EFDEF1FBC3839001B35A5 /* main.m in Sources */,
 				C91EFDE11FBC3839001B35A5 /* AppDelegate.m in Sources */,
+				C91EFDF71FBC3872001B35A5 /* ReachabilityHandler.m in Sources */,
+				C91EFDFF1FBC4329001B35A5 /* KSToastView.m in Sources */,
+				C91EFDFA1FBC3886001B35A5 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
